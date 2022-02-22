@@ -14,8 +14,24 @@ JSON.parse(json_data).each do |line|
   
   if line['lineStatuses'].first['reason']
     reason = line['lineStatuses'].first['reason']
-    # Display the reason of the incident:
     
+    # Display the reason of the incident:
+    puts "- More details about status: #{reason}"
   end
   puts ""
 end
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
